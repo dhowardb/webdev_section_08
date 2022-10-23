@@ -1,0 +1,22 @@
+#page-logo a {
+    padding: 10px;
+    /* font-family: "Oleo Script", sans-serif; */
+    color: rgb(170, 81, 46);
+    font-size: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+#page-body {
+    /* background-color: rgb(73, 73, 73); */
+    background: linear-gradient(354deg, rgb(58 58 58), rgb(24 24 24));
+    padding: 0 0 298px 0;
+   
+}
+
+/* #page-logo a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(230, 137, 100);
+} */
