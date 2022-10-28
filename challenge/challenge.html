@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+    <title>Form Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Fira+Sans:wght@700&family=Oswald:wght@700&family=Roboto&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="challenge.css" />
+    <!-- <script src="main.js"></script> -->
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+
+    <main>
+      <form action="/challenge" method="get" id="ContactForm">
+        <!-- <form action="/user-data" method="post"> -->
+        <!-- <form action="index.html" method="GET"></form> -->
+
+        <section id="PersonalDetails">
+          <h2>How can we help you?</h2>
+          <ul>
+            <li>
+              <label for="username">Your name</label>
+              <input
+                type="text"
+                name="user-name"
+                id="username"
+                required
+                placeholder="Username" />
+            </li>
+            <li>
+              <label for="email">Your E-mail address</label>
+              <input
+                type="email"
+                name="user-email"
+                id="email"
+                required
+                placeholder="Your email" />
+            </li>
+            <li>
+              <label for="userPhoneNumber">Your Phone Number</label>
+              <input
+                type="tel"
+                name="user-phoneNumber"
+                id="userPhoneNumber"
+                required
+                placeholder="09" />
+            </li>
+          </ul>
+        </section>
+
+        <section id="CommentForm">
+          <label for="user-message">Your message</label>
+          <textarea name="user-message" id="user-message" rows="7"></textarea>
+        </section>
+
+        <section id="FindUs">
+          <label for="communication-way">How did you find us?</label>
+          <select name="communication" id="communication-way">
+            <option value="Web Search">Web Search</option>
+            <option value="Word of Mouth">Word of Mouth</option>
+            <option value="Other">Other</option>
+          </select>
+        </section>
+
+        <section id="ReplyForm">
+          <h2>How should we reply?</h2>
+          <ul>
+            <li class="form-control-inline">
+              <input
+                type="radio"
+                name="contact"
+                id="contact-phone"
+                value="phone"
+                required />
+              <label for="contact-email">Call me</label>
+            </li>
+
+            <li class="form-control-inline">
+              <input
+                type="radio"
+                name="contact"
+                id="contact-email"
+                value="email"
+                required />
+              <label for="contact-phone">Send me an email</label>
+            </li>
+
+            <li class="form-control-inline">
+              <input
+                type="radio"
+                name="contact"
+                id="contact-cancel"
+                value="cancel"
+                required />
+              <label for="contact-phone">Don't reply</label>
+            </li>
+          </ul>
+        </section>
+
+        <hr />
+
+        <section id="AcceptTerms">
+          <div class="form-control-inline">
+            <input type="checkbox" name="terms" id="agree-terms" />
+            <label for="agree-terms">Agree to terms?</label>
+          </div>
+        </section>
+
+        <section id="ButtonSection">
+          <button class="resetButton" type="reset">Clear</button>
+          <button class="submitButton" type="submit">Submit</button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
