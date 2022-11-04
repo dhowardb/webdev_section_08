@@ -1,0 +1,22 @@
+{
+  "name": "section18-expressjs",
+  "version": "1.0.0",
+  "description": "Node and ExpressJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhowardb/webdev_training_udemy.git"
+  },
+  "author": "dhowardb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhowardb/webdev_training_udemy/issues"
+  },
+  "homepage": "https://github.com/dhowardb/webdev_training_udemy#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
