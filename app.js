@@ -14,7 +14,7 @@ app.get("/currenttime", function (req, res) {
 //new route for 3000 port
 app.get("/", function (req, res) {
   res.send(
-    "<form action='/store-user' method='POST'><label>Your Name</label><input type='text' name='username'><button type='submit'>Submit</submit></form>"
+    "<form action='/store-user' method='POST'><label>Your Name: </label><input type='text' name='username'><button type='submit'>Submit</submit></form>"
   );
 });
 
